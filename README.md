@@ -1,22 +1,8 @@
-# Turkish Syllable-Based N-Gram Language Model
+# 📖 Turkish Syllable-Based N-Gram Language Model
 
 This repository contains an implementation of a statistical language model for Turkish. The goal is to model the Turkish language statistically by working at the **syllable level**, rather than words or characters, which is especially relevant for agglutinative languages like Turkish. The project uses 1-Gram (unigram), 2-Gram (bigram), and 3-Gram (trigram) models and applies Good-Turing smoothing to handle unseen sequences. The model is evaluated using perplexity, and random sentences are generated to observe the quality of predictions. 
 
 Please see the detailed explanation in the [project report](report.pdf).
-
----
-
-## 📚 Table of Contents
-
-- [Folder Structure](#folder-structure)
-- [How to Run](#how-to-run)
-- [Execution Pipeline](#execution-pipeline)
-  - [1. Preprocessing](#1-preprocessing)
-  - [2. Model Training](#2-model-training)
-  - [3. Evaluation](#3-evaluation)
-  - [4. Random Sentence Generation](#4-random-sentence-generation)
-- [Results](#results)
-- [References](#references)
 
 ---
 
@@ -150,7 +136,7 @@ Trigram sentences are noticeably more coherent and grammatically sound, highligh
 
 ---
 
-## 📊 Results
+## Conclusion
 
 - Trigram model achieved the best perplexity and most coherent sentences.
 - As the N-gram order increases, model performance improves.
