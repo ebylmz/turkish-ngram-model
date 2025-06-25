@@ -10,7 +10,7 @@ Please see the detailed explanation in the [project report](report.pdf).
 
     .
     ├── data/                  # Raw and preprocessed data
-    ├── src/                   # Source code and modules
+    ├── ngram/                 # Source code and modules
     ├── demo.ipynb             # Main notebook for training and evaluation
     ├── report.pdf             # Project report
     └── README.md              # This documentation
